@@ -24,10 +24,10 @@ export const NavBar: React.FC<NavBarProps> = ({ brand = "DevFullStack" }) => {
           </div>
 
           <div className="hidden md:flex space-x-8">
-            <button onClick={() => smoothTo("home")} className="text-gray-300 hover:text-cyan-400 transition-colors">Início</button>
-            <button onClick={() => smoothTo("about")} className="text-gray-300 hover:text-cyan-400 transition-colors">Sobre</button>
-            <button onClick={() => smoothTo("skills")} className="text-gray-300 hover:text-cyan-400 transition-colors">Tecnologias</button>
-            <button onClick={() => smoothTo("contact")} className="text-gray-300 hover:text-cyan-400 transition-colors">Contato</button>
+            <button onClick={() => smoothTo("home")} className="text-white hover:text-cyan-400 transition-colors">Início</button>
+            <button onClick={() => smoothTo("about")} className="text-white hover:text-cyan-400 transition-colors">Sobre</button>
+            <button onClick={() => smoothTo("skills")} className="text-white hover:text-cyan-400 transition-colors">Tecnologias</button>
+            <button onClick={() => smoothTo("contact")} className="text-white hover:text-cyan-400 transition-colors">Contato</button>
           </div>
 
           <button
@@ -45,10 +45,10 @@ export const NavBar: React.FC<NavBarProps> = ({ brand = "DevFullStack" }) => {
       {open && (
         <div id="mobile-menu" className="md:hidden bg-gray-800 border-t border-gray-700">
           <div className="px-4 py-2 space-y-2">
-            <button onClick={() => smoothTo("home")} className="block py-2 text-gray-300 hover:text-cyan-400">Início</button>
-            <button onClick={() => smoothTo("about")} className="block py-2 text-gray-300 hover:text-cyan-400">Sobre</button>
-            <button onClick={() => smoothTo("skills")} className="block py-2 text-gray-300 hover:text-cyan-400">Tecnologias</button>
-            <button onClick={() => smoothTo("contact")} className="block py-2 text-gray-300 hover:text-cyan-400">Contato</button>
+            <button onClick={() => smoothTo("home")} className="block py-2 text-white hover:text-cyan-400">Início</button>
+            <button onClick={() => smoothTo("about")} className="block py-2 text-white hover:text-cyan-400">Sobre</button>
+            <button onClick={() => smoothTo("skills")} className="block py-2 text-white hover:text-cyan-400">Tecnologias</button>
+            <button onClick={() => smoothTo("contact")} className="block py-2 text-white hover:text-cyan-400">Contato</button>
           </div>
         </div>
       )}
