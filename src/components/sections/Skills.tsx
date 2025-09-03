@@ -59,9 +59,9 @@ export const Skills: React.FC = () => (
               <span className="text-gray-300">{t}</span>
             </div>
           ))}
-          <div className="mt-4 p-3 bg-gray-700 rounded-lg border border-gray-600">
+          {/* <div className="mt-4 p-3 bg-gray-700 rounded-lg border border-gray-600">
             <p className="text-sm text-purple-300">Projetos pessoais e soluções escaláveis</p>
-          </div>
+          </div> */}
         </div>
 
         {/* Database */}
